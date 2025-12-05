@@ -1,0 +1,553 @@
+================================================================================
+SATELLITE COLLISION PREDICTION REPORT
+================================================================================
+
+Generated: 2025-12-04T17:49:27.716324
+Input file: data/raw/test_input.json
+Threshold: 0.1
+Total pairs analyzed: 210
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total collision warnings: 76
+  - High risk (p >= 0.7): 40
+  - Medium risk (0.3 <= p < 0.7): 26
+  - Low risk (threshold <= p < 0.3): 10
+Safe pairs: 134
+
+
+COLLISION WARNINGS (sorted by probability)
+================================================================================
+
+WARNING #1 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.919557
+Risk level: HIGH_RISK
+
+WARNING #2 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.917476
+Risk level: HIGH_RISK
+
+WARNING #3 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.912575
+Risk level: HIGH_RISK
+
+WARNING #4 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CALIPSO (ID: TEST00016, NORAD: 29108)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.912478
+Risk level: HIGH_RISK
+
+WARNING #5 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: AQUA (ID: TEST00008, NORAD: 27424)
+Collision probability: 0.909175
+Risk level: HIGH_RISK
+
+WARNING #6 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.904644
+Risk level: HIGH_RISK
+
+WARNING #7 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.901839
+Risk level: HIGH_RISK
+
+WARNING #8 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.893461
+Risk level: HIGH_RISK
+
+WARNING #9 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.891059
+Risk level: HIGH_RISK
+
+WARNING #10 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ISS (ZARYA) (ID: TEST00000, NORAD: 25544)
+Satellite 2: STARLINK-1130 (ID: TEST00005, NORAD: 45194)
+Collision probability: 0.888721
+Risk level: HIGH_RISK
+
+WARNING #11 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ENVISAT (ID: TEST00017, NORAD: 27386)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.888023
+Risk level: HIGH_RISK
+
+WARNING #12 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CALIPSO (ID: TEST00016, NORAD: 29108)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.885736
+Risk level: HIGH_RISK
+
+WARNING #13 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: AQUA (ID: TEST00008, NORAD: 27424)
+Collision probability: 0.876834
+Risk level: HIGH_RISK
+
+WARNING #14 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.873970
+Risk level: HIGH_RISK
+
+WARNING #15 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.873554
+Risk level: HIGH_RISK
+
+WARNING #16 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: TERRA (ID: TEST00009, NORAD: 25994)
+Collision probability: 0.863360
+Risk level: HIGH_RISK
+
+WARNING #17 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.861700
+Risk level: HIGH_RISK
+
+WARNING #18 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Collision probability: 0.854057
+Risk level: HIGH_RISK
+
+WARNING #19 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ASTRA 1KR (ID: TEST00010, NORAD: 32387)
+Satellite 2: GOES-16 (ID: TEST00014, NORAD: 41866)
+Collision probability: 0.852955
+Risk level: HIGH_RISK
+
+WARNING #20 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: METEOSAT 11 (ID: TEST00007, NORAD: 40732)
+Satellite 2: ASTRA 1KR (ID: TEST00010, NORAD: 32387)
+Collision probability: 0.850930
+Risk level: HIGH_RISK
+
+WARNING #21 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.833136
+Risk level: HIGH_RISK
+
+WARNING #22 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CALIPSO (ID: TEST00016, NORAD: 29108)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.825965
+Risk level: HIGH_RISK
+
+WARNING #23 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.819377
+Risk level: HIGH_RISK
+
+WARNING #24 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Collision probability: 0.817783
+Risk level: HIGH_RISK
+
+WARNING #25 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: TERRA (ID: TEST00009, NORAD: 25994)
+Collision probability: 0.817353
+Risk level: HIGH_RISK
+
+WARNING #26 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.814822
+Risk level: HIGH_RISK
+
+WARNING #27 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.812575
+Risk level: HIGH_RISK
+
+WARNING #28 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: STARLINK-1130 (ID: TEST00005, NORAD: 45194)
+Satellite 2: GALILEO 1 (ID: TEST00006, NORAD: 30386)
+Collision probability: 0.789237
+Risk level: HIGH_RISK
+
+WARNING #29 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.766911
+Risk level: HIGH_RISK
+
+WARNING #30 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Collision probability: 0.762394
+Risk level: HIGH_RISK
+
+WARNING #31 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.761779
+Risk level: HIGH_RISK
+
+WARNING #32 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CSS (TIANHE) (ID: TEST00001, NORAD: 48274)
+Satellite 2: MOLNIYA 1 (ID: TEST00011, NORAD: 35056)
+Collision probability: 0.754572
+Risk level: HIGH_RISK
+
+WARNING #33 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.748867
+Risk level: HIGH_RISK
+
+WARNING #34 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.744429
+Risk level: HIGH_RISK
+
+WARNING #35 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: IRIDIUM 2 (ID: TEST00013, NORAD: 24952)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.739280
+Risk level: HIGH_RISK
+
+WARNING #36 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: TERRA (ID: TEST00009, NORAD: 25994)
+Collision probability: 0.731582
+Risk level: HIGH_RISK
+
+WARNING #37 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.729734
+Risk level: HIGH_RISK
+
+WARNING #38 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.726581
+Risk level: HIGH_RISK
+
+WARNING #39 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Collision probability: 0.722587
+Risk level: HIGH_RISK
+
+WARNING #40 - HIGH_RISK
+--------------------------------------------------------------------------------
+Satellite 1: GLONASS-M 56 (ID: TEST00004, NORAD: 37348)
+Satellite 2: GALILEO 1 (ID: TEST00006, NORAD: 30386)
+Collision probability: 0.706645
+Risk level: HIGH_RISK
+
+WARNING #41 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ENVISAT (ID: TEST00017, NORAD: 27386)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.696617
+Risk level: MEDIUM_RISK
+
+WARNING #42 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.677207
+Risk level: MEDIUM_RISK
+
+WARNING #43 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CALIPSO (ID: TEST00016, NORAD: 29108)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.676335
+Risk level: MEDIUM_RISK
+
+WARNING #44 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.674145
+Risk level: MEDIUM_RISK
+
+WARNING #45 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Satellite 2: HYPERSPECTRAL (ID: TEST00019, NORAD: 39084)
+Collision probability: 0.665238
+Risk level: MEDIUM_RISK
+
+WARNING #46 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.647765
+Risk level: MEDIUM_RISK
+
+WARNING #47 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.621340
+Risk level: MEDIUM_RISK
+
+WARNING #48 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.618469
+Risk level: MEDIUM_RISK
+
+WARNING #49 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Collision probability: 0.583268
+Risk level: MEDIUM_RISK
+
+WARNING #50 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ISS (ZARYA) (ID: TEST00000, NORAD: 25544)
+Satellite 2: GALILEO 1 (ID: TEST00006, NORAD: 30386)
+Collision probability: 0.515829
+Risk level: MEDIUM_RISK
+
+WARNING #51 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ENVISAT (ID: TEST00017, NORAD: 27386)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.505756
+Risk level: MEDIUM_RISK
+
+WARNING #52 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: METEOSAT 11 (ID: TEST00007, NORAD: 40732)
+Satellite 2: GOES-16 (ID: TEST00014, NORAD: 41866)
+Collision probability: 0.493980
+Risk level: MEDIUM_RISK
+
+WARNING #53 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ISS (ZARYA) (ID: TEST00000, NORAD: 25544)
+Satellite 2: GLONASS-M 56 (ID: TEST00004, NORAD: 37348)
+Collision probability: 0.493451
+Risk level: MEDIUM_RISK
+
+WARNING #54 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: IRIDIUM 2 (ID: TEST00013, NORAD: 24952)
+Satellite 2: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Collision probability: 0.473831
+Risk level: MEDIUM_RISK
+
+WARNING #55 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: GLONASS-M 56 (ID: TEST00004, NORAD: 37348)
+Satellite 2: IRIDIUM 2 (ID: TEST00013, NORAD: 24952)
+Collision probability: 0.455256
+Risk level: MEDIUM_RISK
+
+WARNING #56 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.444806
+Risk level: MEDIUM_RISK
+
+WARNING #57 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: AQUA (ID: TEST00008, NORAD: 27424)
+Satellite 2: IRIDIUM 2 (ID: TEST00013, NORAD: 24952)
+Collision probability: 0.434902
+Risk level: MEDIUM_RISK
+
+WARNING #58 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.420720
+Risk level: MEDIUM_RISK
+
+WARNING #59 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: IRIDIUM 2 (ID: TEST00013, NORAD: 24952)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.402754
+Risk level: MEDIUM_RISK
+
+WARNING #60 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: ENVISAT (ID: TEST00017, NORAD: 27386)
+Collision probability: 0.391661
+Risk level: MEDIUM_RISK
+
+WARNING #61 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Collision probability: 0.391031
+Risk level: MEDIUM_RISK
+
+WARNING #62 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.372930
+Risk level: MEDIUM_RISK
+
+WARNING #63 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Satellite 2: CALIPSO (ID: TEST00016, NORAD: 29108)
+Collision probability: 0.370302
+Risk level: MEDIUM_RISK
+
+WARNING #64 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Collision probability: 0.366481
+Risk level: MEDIUM_RISK
+
+WARNING #65 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ISS (ZARYA) (ID: TEST00000, NORAD: 25544)
+Satellite 2: CSS (TIANHE) (ID: TEST00001, NORAD: 48274)
+Collision probability: 0.324224
+Risk level: MEDIUM_RISK
+
+WARNING #66 - MEDIUM_RISK
+--------------------------------------------------------------------------------
+Satellite 1: TERRA (ID: TEST00009, NORAD: 25994)
+Satellite 2: NOAA-18 (ID: TEST00015, NORAD: 28654)
+Collision probability: 0.304583
+Risk level: MEDIUM_RISK
+
+WARNING #67 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: SPOT-7 (ID: TEST00018, NORAD: 40014)
+Collision probability: 0.278444
+Risk level: LOW_RISK
+
+WARNING #68 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: GLONASS-M 56 (ID: TEST00004, NORAD: 37348)
+Satellite 2: STARLINK-1130 (ID: TEST00005, NORAD: 45194)
+Collision probability: 0.266837
+Risk level: LOW_RISK
+
+WARNING #69 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CSS (TIANHE) (ID: TEST00001, NORAD: 48274)
+Satellite 2: GLONASS-M 56 (ID: TEST00004, NORAD: 37348)
+Collision probability: 0.207349
+Risk level: LOW_RISK
+
+WARNING #70 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: GLONASS-M 56 (ID: TEST00004, NORAD: 37348)
+Satellite 2: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Collision probability: 0.195829
+Risk level: LOW_RISK
+
+WARNING #71 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: IRIDIUM 2 (ID: TEST00013, NORAD: 24952)
+Collision probability: 0.186170
+Risk level: LOW_RISK
+
+WARNING #72 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CSS (TIANHE) (ID: TEST00001, NORAD: 48274)
+Satellite 2: GALILEO 1 (ID: TEST00006, NORAD: 30386)
+Collision probability: 0.150980
+Risk level: LOW_RISK
+
+WARNING #73 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Satellite 2: GCOM-W1 (ID: TEST00020, NORAD: 38629)
+Collision probability: 0.148328
+Risk level: LOW_RISK
+
+WARNING #74 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: SENTINEL-1A (ID: TEST00002, NORAD: 39953)
+Satellite 2: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Collision probability: 0.147026
+Risk level: LOW_RISK
+
+WARNING #75 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: LANDSAT 9 (ID: TEST00003, NORAD: 49260)
+Satellite 2: ONEWEB 0001 (ID: TEST00012, NORAD: 44713)
+Collision probability: 0.145070
+Risk level: LOW_RISK
+
+WARNING #76 - LOW_RISK
+--------------------------------------------------------------------------------
+Satellite 1: CSS (TIANHE) (ID: TEST00001, NORAD: 48274)
+Satellite 2: STARLINK-1130 (ID: TEST00005, NORAD: 45194)
+Collision probability: 0.101165
+Risk level: LOW_RISK
+

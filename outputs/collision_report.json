@@ -1,0 +1,2143 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-04T17:49:27.716324",
+    "input_file": "data/raw/test_input.json",
+    "total_pairs_analyzed": 210,
+    "threshold": 0.1,
+    "model_used": "collision_model_best.keras"
+  },
+  "collision_warnings": [
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "49260",
+      "sat2_norad": "39084",
+      "collision_probability": 0.9195573925971985,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00015",
+      "sat1_name": "NOAA-18",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "28654",
+      "sat2_norad": "27386",
+      "collision_probability": 0.9174755215644836,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "25994",
+      "sat2_norad": "27386",
+      "collision_probability": 0.9125749468803406,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00016",
+      "sat1_name": "CALIPSO",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "29108",
+      "sat2_norad": "27386",
+      "collision_probability": 0.9124777317047119,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "39953",
+      "sat2_norad": "27424",
+      "collision_probability": 0.9091753363609314,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00019",
+      "sat1_name": "HYPERSPECTRAL",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "39084",
+      "sat2_norad": "38629",
+      "collision_probability": 0.9046444892883301,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00018",
+      "sat1_name": "SPOT-7",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "40014",
+      "sat2_norad": "39084",
+      "collision_probability": 0.9018387794494629,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "25994",
+      "sat2_norad": "40014",
+      "collision_probability": 0.8934609293937683,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00015",
+      "sat1_name": "NOAA-18",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "28654",
+      "sat2_norad": "40014",
+      "collision_probability": 0.8910591006278992,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00005",
+      "sat2_name": "STARLINK-1130",
+      "sat1_norad": "25544",
+      "sat2_norad": "45194",
+      "collision_probability": 0.8887209892272949,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00017",
+      "sat1_name": "ENVISAT",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "27386",
+      "sat2_norad": "39084",
+      "collision_probability": 0.8880230188369751,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00016",
+      "sat1_name": "CALIPSO",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "29108",
+      "sat2_norad": "40014",
+      "collision_probability": 0.8857358694076538,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "49260",
+      "sat2_norad": "27424",
+      "collision_probability": 0.8768340945243835,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "27424",
+      "sat2_norad": "38629",
+      "collision_probability": 0.8739697933197021,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "39953",
+      "sat2_norad": "39084",
+      "collision_probability": 0.8735544085502625,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "27424",
+      "sat2_norad": "25994",
+      "collision_probability": 0.863359808921814,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "27424",
+      "sat2_norad": "29108",
+      "collision_probability": 0.8616998195648193,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "27424",
+      "sat2_norad": "28654",
+      "collision_probability": 0.8540565967559814,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "32387",
+      "sat2_norad": "41866",
+      "collision_probability": 0.8529554009437561,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "40732",
+      "sat2_norad": "32387",
+      "collision_probability": 0.8509297370910645,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "25994",
+      "sat2_norad": "38629",
+      "collision_probability": 0.8331362009048462,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00016",
+      "sat1_name": "CALIPSO",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "29108",
+      "sat2_norad": "38629",
+      "collision_probability": 0.8259651064872742,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "49260",
+      "sat2_norad": "29108",
+      "collision_probability": 0.8193767070770264,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "49260",
+      "sat2_norad": "28654",
+      "collision_probability": 0.8177828192710876,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "49260",
+      "sat2_norad": "25994",
+      "collision_probability": 0.8173527121543884,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00015",
+      "sat1_name": "NOAA-18",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "28654",
+      "sat2_norad": "38629",
+      "collision_probability": 0.8148224353790283,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "39953",
+      "sat2_norad": "27386",
+      "collision_probability": 0.8125748634338379,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00006",
+      "sat2_name": "GALILEO 1",
+      "sat1_norad": "45194",
+      "sat2_norad": "30386",
+      "collision_probability": 0.7892372608184814,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "27424",
+      "sat2_norad": "40014",
+      "collision_probability": 0.76691073179245,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "27424",
+      "sat2_norad": "44713",
+      "collision_probability": 0.7623936533927917,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "39953",
+      "sat2_norad": "40014",
+      "collision_probability": 0.7617785930633545,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "48274",
+      "sat2_norad": "35056",
+      "collision_probability": 0.7545722723007202,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "27424",
+      "sat2_norad": "39084",
+      "collision_probability": 0.7488667964935303,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "49260",
+      "sat2_norad": "27386",
+      "collision_probability": 0.7444289326667786,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "24952",
+      "sat2_norad": "39084",
+      "collision_probability": 0.7392801642417908,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "39953",
+      "sat2_norad": "25994",
+      "collision_probability": 0.7315820455551147,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "39953",
+      "sat2_norad": "29108",
+      "collision_probability": 0.7297341227531433,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "44713",
+      "sat2_norad": "39084",
+      "collision_probability": 0.7265807390213013,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "39953",
+      "sat2_norad": "28654",
+      "collision_probability": 0.7225872874259949,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00006",
+      "sat2_name": "GALILEO 1",
+      "sat1_norad": "37348",
+      "sat2_norad": "30386",
+      "collision_probability": 0.7066446542739868,
+      "risk_level": "HIGH_RISK"
+    },
+    {
+      "sat1_id": "TEST00017",
+      "sat1_name": "ENVISAT",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "27386",
+      "sat2_norad": "38629",
+      "collision_probability": 0.6966168880462646,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "49260",
+      "sat2_norad": "40014",
+      "collision_probability": 0.6772071123123169,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00016",
+      "sat1_name": "CALIPSO",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "29108",
+      "sat2_norad": "39084",
+      "collision_probability": 0.6763350963592529,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "25994",
+      "sat2_norad": "39084",
+      "collision_probability": 0.6741451025009155,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00015",
+      "sat1_name": "NOAA-18",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "28654",
+      "sat2_norad": "39084",
+      "collision_probability": 0.6652380228042603,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "27424",
+      "sat2_norad": "27386",
+      "collision_probability": 0.6477652192115784,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "39953",
+      "sat2_norad": "38629",
+      "collision_probability": 0.621340274810791,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00018",
+      "sat1_name": "SPOT-7",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "40014",
+      "sat2_norad": "38629",
+      "collision_probability": 0.6184687614440918,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00003",
+      "sat2_name": "LANDSAT 9",
+      "sat1_norad": "39953",
+      "sat2_norad": "49260",
+      "collision_probability": 0.5832678079605103,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00006",
+      "sat2_name": "GALILEO 1",
+      "sat1_norad": "25544",
+      "sat2_norad": "30386",
+      "collision_probability": 0.51582932472229,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00017",
+      "sat1_name": "ENVISAT",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "27386",
+      "sat2_norad": "40014",
+      "collision_probability": 0.5057557821273804,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "40732",
+      "sat2_norad": "41866",
+      "collision_probability": 0.49398016929626465,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00004",
+      "sat2_name": "GLONASS-M 56",
+      "sat1_norad": "25544",
+      "sat2_norad": "37348",
+      "collision_probability": 0.4934510588645935,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "24952",
+      "sat2_norad": "28654",
+      "collision_probability": 0.473830908536911,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "37348",
+      "sat2_norad": "24952",
+      "collision_probability": 0.45525574684143066,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "49260",
+      "sat2_norad": "38629",
+      "collision_probability": 0.4448064863681793,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "27424",
+      "sat2_norad": "24952",
+      "collision_probability": 0.43490153551101685,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "25994",
+      "sat2_norad": "29108",
+      "collision_probability": 0.4207198917865753,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "24952",
+      "sat2_norad": "29108",
+      "collision_probability": 0.4027540385723114,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "44713",
+      "sat2_norad": "27386",
+      "collision_probability": 0.39166149497032166,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "44713",
+      "sat2_norad": "28654",
+      "collision_probability": 0.391030877828598,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "44713",
+      "sat2_norad": "29108",
+      "collision_probability": 0.3729301691055298,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00015",
+      "sat1_name": "NOAA-18",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "28654",
+      "sat2_norad": "29108",
+      "collision_probability": 0.3703019618988037,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "25994",
+      "sat2_norad": "44713",
+      "collision_probability": 0.36648115515708923,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00001",
+      "sat2_name": "CSS (TIANHE)",
+      "sat1_norad": "25544",
+      "sat2_norad": "48274",
+      "collision_probability": 0.3242237865924835,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "25994",
+      "sat2_norad": "28654",
+      "collision_probability": 0.30458295345306396,
+      "risk_level": "MEDIUM_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "44713",
+      "sat2_norad": "40014",
+      "collision_probability": 0.2784442901611328,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00005",
+      "sat2_name": "STARLINK-1130",
+      "sat1_norad": "37348",
+      "sat2_norad": "45194",
+      "collision_probability": 0.26683714985847473,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00004",
+      "sat2_name": "GLONASS-M 56",
+      "sat1_norad": "48274",
+      "sat2_norad": "37348",
+      "collision_probability": 0.2073485106229782,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "37348",
+      "sat2_norad": "44713",
+      "collision_probability": 0.19582892954349518,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "44713",
+      "sat2_norad": "24952",
+      "collision_probability": 0.18617033958435059,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00006",
+      "sat2_name": "GALILEO 1",
+      "sat1_norad": "48274",
+      "sat2_norad": "30386",
+      "collision_probability": 0.15097983181476593,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "44713",
+      "sat2_norad": "38629",
+      "collision_probability": 0.14832845330238342,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "39953",
+      "sat2_norad": "44713",
+      "collision_probability": 0.14702574908733368,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "49260",
+      "sat2_norad": "44713",
+      "collision_probability": 0.14507023990154266,
+      "risk_level": "LOW_RISK"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00005",
+      "sat2_name": "STARLINK-1130",
+      "sat1_norad": "48274",
+      "sat2_norad": "45194",
+      "collision_probability": 0.10116477310657501,
+      "risk_level": "LOW_RISK"
+    }
+  ],
+  "safe_pairs": [
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00002",
+      "sat2_name": "SENTINEL-1A",
+      "sat1_norad": "25544",
+      "sat2_norad": "39953",
+      "collision_probability": 0.0010588911827653646,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00003",
+      "sat2_name": "LANDSAT 9",
+      "sat1_norad": "25544",
+      "sat2_norad": "49260",
+      "collision_probability": 0.0011190844234079123,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "25544",
+      "sat2_norad": "40732",
+      "collision_probability": 5.114495434099808e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "25544",
+      "sat2_norad": "27424",
+      "collision_probability": 0.005189533811062574,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "25544",
+      "sat2_norad": "25994",
+      "collision_probability": 0.0008184586768038571,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "25544",
+      "sat2_norad": "32387",
+      "collision_probability": 7.667065074201673e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "25544",
+      "sat2_norad": "35056",
+      "collision_probability": 0.01553899422287941,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "25544",
+      "sat2_norad": "44713",
+      "collision_probability": 0.004880208987742662,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "25544",
+      "sat2_norad": "24952",
+      "collision_probability": 0.015298300422728062,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "25544",
+      "sat2_norad": "41866",
+      "collision_probability": 5.670060636475682e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "25544",
+      "sat2_norad": "28654",
+      "collision_probability": 0.0010807927465066314,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "25544",
+      "sat2_norad": "29108",
+      "collision_probability": 0.0008543589501641691,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "25544",
+      "sat2_norad": "27386",
+      "collision_probability": 0.0013940352946519852,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "25544",
+      "sat2_norad": "40014",
+      "collision_probability": 0.001366223325021565,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "25544",
+      "sat2_norad": "39084",
+      "collision_probability": 0.0012941858731210232,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00000",
+      "sat1_name": "ISS (ZARYA)",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "25544",
+      "sat2_norad": "38629",
+      "collision_probability": 0.0011992920190095901,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00002",
+      "sat2_name": "SENTINEL-1A",
+      "sat1_norad": "48274",
+      "sat2_norad": "39953",
+      "collision_probability": 0.0004747035854961723,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00003",
+      "sat2_name": "LANDSAT 9",
+      "sat1_norad": "48274",
+      "sat2_norad": "49260",
+      "collision_probability": 0.0004348265065345913,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "48274",
+      "sat2_norad": "40732",
+      "collision_probability": 1.334508488071151e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "48274",
+      "sat2_norad": "27424",
+      "collision_probability": 0.00020798161858692765,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "48274",
+      "sat2_norad": "25994",
+      "collision_probability": 0.00087985850404948,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "48274",
+      "sat2_norad": "32387",
+      "collision_probability": 6.429973836930003e-06,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "48274",
+      "sat2_norad": "44713",
+      "collision_probability": 0.001945402123965323,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "48274",
+      "sat2_norad": "24952",
+      "collision_probability": 0.0014633540995419025,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "48274",
+      "sat2_norad": "41866",
+      "collision_probability": 1.3897027201892342e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "48274",
+      "sat2_norad": "28654",
+      "collision_probability": 0.0007181533728726208,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "48274",
+      "sat2_norad": "29108",
+      "collision_probability": 0.0009377121459692717,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "48274",
+      "sat2_norad": "27386",
+      "collision_probability": 0.0005646690842695534,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "48274",
+      "sat2_norad": "40014",
+      "collision_probability": 0.0005277122254483402,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "48274",
+      "sat2_norad": "39084",
+      "collision_probability": 0.001984112896025181,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00001",
+      "sat1_name": "CSS (TIANHE)",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "48274",
+      "sat2_norad": "38629",
+      "collision_probability": 0.0004445374943315983,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00004",
+      "sat2_name": "GLONASS-M 56",
+      "sat1_norad": "39953",
+      "sat2_norad": "37348",
+      "collision_probability": 0.009844643995165825,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00005",
+      "sat2_name": "STARLINK-1130",
+      "sat1_norad": "39953",
+      "sat2_norad": "45194",
+      "collision_probability": 0.0016092200530692935,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00006",
+      "sat2_name": "GALILEO 1",
+      "sat1_norad": "39953",
+      "sat2_norad": "30386",
+      "collision_probability": 0.0020084709394723177,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "39953",
+      "sat2_norad": "40732",
+      "collision_probability": 1.0304904485280986e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "39953",
+      "sat2_norad": "32387",
+      "collision_probability": 3.046439189802186e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "39953",
+      "sat2_norad": "35056",
+      "collision_probability": 0.00208086846396327,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "39953",
+      "sat2_norad": "24952",
+      "collision_probability": 0.061236292123794556,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00002",
+      "sat1_name": "SENTINEL-1A",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "39953",
+      "sat2_norad": "41866",
+      "collision_probability": 1.0878129508284928e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00004",
+      "sat2_name": "GLONASS-M 56",
+      "sat1_norad": "49260",
+      "sat2_norad": "37348",
+      "collision_probability": 0.017942272126674652,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00005",
+      "sat2_name": "STARLINK-1130",
+      "sat1_norad": "49260",
+      "sat2_norad": "45194",
+      "collision_probability": 0.0015266751870512962,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00006",
+      "sat2_name": "GALILEO 1",
+      "sat1_norad": "49260",
+      "sat2_norad": "30386",
+      "collision_probability": 0.001710954587906599,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "49260",
+      "sat2_norad": "40732",
+      "collision_probability": 1.0301995700956468e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "49260",
+      "sat2_norad": "32387",
+      "collision_probability": 4.799051112058805e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "49260",
+      "sat2_norad": "35056",
+      "collision_probability": 0.02214229851961136,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "49260",
+      "sat2_norad": "24952",
+      "collision_probability": 0.05728472024202347,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00003",
+      "sat1_name": "LANDSAT 9",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "49260",
+      "sat2_norad": "41866",
+      "collision_probability": 1.0875018219280719e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "37348",
+      "sat2_norad": "40732",
+      "collision_probability": 1.2086065908079036e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "37348",
+      "sat2_norad": "27424",
+      "collision_probability": 0.0032024558167904615,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "37348",
+      "sat2_norad": "25994",
+      "collision_probability": 0.01063532754778862,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "37348",
+      "sat2_norad": "32387",
+      "collision_probability": 3.7092371485414333e-07,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "37348",
+      "sat2_norad": "35056",
+      "collision_probability": 0.012163097970187664,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "37348",
+      "sat2_norad": "41866",
+      "collision_probability": 3.2488617307535606e-07,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "37348",
+      "sat2_norad": "28654",
+      "collision_probability": 0.003923740703612566,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "37348",
+      "sat2_norad": "29108",
+      "collision_probability": 0.002656051656231284,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "37348",
+      "sat2_norad": "27386",
+      "collision_probability": 0.009192085824906826,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "37348",
+      "sat2_norad": "40014",
+      "collision_probability": 0.009926751255989075,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "37348",
+      "sat2_norad": "39084",
+      "collision_probability": 0.0021077992860227823,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00004",
+      "sat1_name": "GLONASS-M 56",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "37348",
+      "sat2_norad": "38629",
+      "collision_probability": 0.00946183130145073,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "45194",
+      "sat2_norad": "40732",
+      "collision_probability": 7.240579179779161e-06,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "45194",
+      "sat2_norad": "27424",
+      "collision_probability": 0.0016929180128499866,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "45194",
+      "sat2_norad": "25994",
+      "collision_probability": 0.0049604326486587524,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "45194",
+      "sat2_norad": "32387",
+      "collision_probability": 2.9782968340441585e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "45194",
+      "sat2_norad": "35056",
+      "collision_probability": 0.027365220710635185,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "45194",
+      "sat2_norad": "44713",
+      "collision_probability": 0.016234681010246277,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "45194",
+      "sat2_norad": "24952",
+      "collision_probability": 0.013836300000548363,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "45194",
+      "sat2_norad": "41866",
+      "collision_probability": 8.006899406609591e-06,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "45194",
+      "sat2_norad": "28654",
+      "collision_probability": 0.007857343181967735,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "45194",
+      "sat2_norad": "29108",
+      "collision_probability": 0.0059487842954695225,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "45194",
+      "sat2_norad": "27386",
+      "collision_probability": 0.0010403908090665936,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "45194",
+      "sat2_norad": "40014",
+      "collision_probability": 0.0010475317249074578,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "45194",
+      "sat2_norad": "39084",
+      "collision_probability": 0.002836619270965457,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00005",
+      "sat1_name": "STARLINK-1130",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "45194",
+      "sat2_norad": "38629",
+      "collision_probability": 0.0018161502666771412,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00007",
+      "sat2_name": "METEOSAT 11",
+      "sat1_norad": "30386",
+      "sat2_norad": "40732",
+      "collision_probability": 2.4068041966529563e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "30386",
+      "sat2_norad": "27424",
+      "collision_probability": 0.003766763024032116,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "30386",
+      "sat2_norad": "25994",
+      "collision_probability": 0.0017319904873147607,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "30386",
+      "sat2_norad": "32387",
+      "collision_probability": 3.9862439734861255e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "30386",
+      "sat2_norad": "35056",
+      "collision_probability": 0.03758876770734787,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "30386",
+      "sat2_norad": "44713",
+      "collision_probability": 0.0043700868263840675,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "30386",
+      "sat2_norad": "24952",
+      "collision_probability": 0.013396409340202808,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "30386",
+      "sat2_norad": "41866",
+      "collision_probability": 2.6391597202746198e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "30386",
+      "sat2_norad": "28654",
+      "collision_probability": 0.002476149471476674,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "30386",
+      "sat2_norad": "29108",
+      "collision_probability": 0.0018951116362586617,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "30386",
+      "sat2_norad": "27386",
+      "collision_probability": 0.0014979864936321974,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "30386",
+      "sat2_norad": "40014",
+      "collision_probability": 0.0014683345798403025,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "30386",
+      "sat2_norad": "39084",
+      "collision_probability": 0.0065339477732777596,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00006",
+      "sat1_name": "GALILEO 1",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "30386",
+      "sat2_norad": "38629",
+      "collision_probability": 0.0012860391288995743,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00008",
+      "sat2_name": "AQUA",
+      "sat1_norad": "40732",
+      "sat2_norad": "27424",
+      "collision_probability": 1.0489200619190342e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00009",
+      "sat2_name": "TERRA",
+      "sat1_norad": "40732",
+      "sat2_norad": "25994",
+      "collision_probability": 4.749219351118938e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "40732",
+      "sat2_norad": "35056",
+      "collision_probability": 0.00426664762198925,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "40732",
+      "sat2_norad": "44713",
+      "collision_probability": 2.1604122935059422e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "40732",
+      "sat2_norad": "24952",
+      "collision_probability": 8.580882671083145e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "40732",
+      "sat2_norad": "28654",
+      "collision_probability": 1.3174685786765394e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "40732",
+      "sat2_norad": "29108",
+      "collision_probability": 6.042727984656437e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "40732",
+      "sat2_norad": "27386",
+      "collision_probability": 7.58720419824499e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "40732",
+      "sat2_norad": "40014",
+      "collision_probability": 1.013581329978308e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "40732",
+      "sat2_norad": "39084",
+      "collision_probability": 6.367935068141151e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00007",
+      "sat1_name": "METEOSAT 11",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "40732",
+      "sat2_norad": "38629",
+      "collision_probability": 1.2696294016123488e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "27424",
+      "sat2_norad": "32387",
+      "collision_probability": 3.817637761471815e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "27424",
+      "sat2_norad": "35056",
+      "collision_probability": 7.753870158921927e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00008",
+      "sat1_name": "AQUA",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "27424",
+      "sat2_norad": "41866",
+      "collision_probability": 1.5391911745155085e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00010",
+      "sat2_name": "ASTRA 1KR",
+      "sat1_norad": "25994",
+      "sat2_norad": "32387",
+      "collision_probability": 1.0766971314524199e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "25994",
+      "sat2_norad": "35056",
+      "collision_probability": 0.004068220499902964,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "25994",
+      "sat2_norad": "24952",
+      "collision_probability": 0.087605319917202,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00009",
+      "sat1_name": "TERRA",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "25994",
+      "sat2_norad": "41866",
+      "collision_probability": 7.916641564520432e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00011",
+      "sat2_name": "MOLNIYA 1",
+      "sat1_norad": "32387",
+      "sat2_norad": "35056",
+      "collision_probability": 0.001957452856004238,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "32387",
+      "sat2_norad": "44713",
+      "collision_probability": 1.0662051685983442e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "32387",
+      "sat2_norad": "24952",
+      "collision_probability": 1.9875641132927058e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "32387",
+      "sat2_norad": "28654",
+      "collision_probability": 5.865674612692828e-11,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "32387",
+      "sat2_norad": "29108",
+      "collision_probability": 3.098803158518848e-11,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "32387",
+      "sat2_norad": "27386",
+      "collision_probability": 7.897513754073771e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "32387",
+      "sat2_norad": "40014",
+      "collision_probability": 3.619925539877222e-11,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "32387",
+      "sat2_norad": "39084",
+      "collision_probability": 2.14811675391946e-11,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00010",
+      "sat1_name": "ASTRA 1KR",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "32387",
+      "sat2_norad": "38629",
+      "collision_probability": 8.333132794913212e-11,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00012",
+      "sat2_name": "ONEWEB 0001",
+      "sat1_norad": "35056",
+      "sat2_norad": "44713",
+      "collision_probability": 0.0003248751163482666,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00013",
+      "sat2_name": "IRIDIUM 2",
+      "sat1_norad": "35056",
+      "sat2_norad": "24952",
+      "collision_probability": 0.0001382319169351831,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "35056",
+      "sat2_norad": "41866",
+      "collision_probability": 2.2493517462862656e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "35056",
+      "sat2_norad": "28654",
+      "collision_probability": 3.214572643628344e-06,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "35056",
+      "sat2_norad": "29108",
+      "collision_probability": 9.719610534375533e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "35056",
+      "sat2_norad": "27386",
+      "collision_probability": 9.21407772693783e-05,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "35056",
+      "sat2_norad": "40014",
+      "collision_probability": 0.00017545156879350543,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "35056",
+      "sat2_norad": "39084",
+      "collision_probability": 0.00010962925443891436,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00011",
+      "sat1_name": "MOLNIYA 1",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "35056",
+      "sat2_norad": "38629",
+      "collision_probability": 4.531232661975082e-06,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00012",
+      "sat1_name": "ONEWEB 0001",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "44713",
+      "sat2_norad": "41866",
+      "collision_probability": 3.555959793288821e-08,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00014",
+      "sat2_name": "GOES-16",
+      "sat1_norad": "24952",
+      "sat2_norad": "41866",
+      "collision_probability": 5.801421707474219e-07,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "24952",
+      "sat2_norad": "27386",
+      "collision_probability": 0.04878312349319458,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "24952",
+      "sat2_norad": "40014",
+      "collision_probability": 0.055650390684604645,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00013",
+      "sat1_name": "IRIDIUM 2",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "24952",
+      "sat2_norad": "38629",
+      "collision_probability": 0.06589259952306747,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00014",
+      "sat1_name": "GOES-16",
+      "sat2_id": "TEST00015",
+      "sat2_name": "NOAA-18",
+      "sat1_norad": "41866",
+      "sat2_norad": "28654",
+      "collision_probability": 1.2185176201384706e-09,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00014",
+      "sat1_name": "GOES-16",
+      "sat2_id": "TEST00016",
+      "sat2_name": "CALIPSO",
+      "sat1_norad": "41866",
+      "sat2_norad": "29108",
+      "collision_probability": 5.585295004273405e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00014",
+      "sat1_name": "GOES-16",
+      "sat2_id": "TEST00017",
+      "sat2_name": "ENVISAT",
+      "sat1_norad": "41866",
+      "sat2_norad": "27386",
+      "collision_probability": 7.097701315572635e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00014",
+      "sat1_name": "GOES-16",
+      "sat2_id": "TEST00018",
+      "sat2_name": "SPOT-7",
+      "sat1_norad": "41866",
+      "sat2_norad": "40014",
+      "collision_probability": 9.527511002360711e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00014",
+      "sat1_name": "GOES-16",
+      "sat2_id": "TEST00019",
+      "sat2_name": "HYPERSPECTRAL",
+      "sat1_norad": "41866",
+      "sat2_norad": "39084",
+      "collision_probability": 5.823350690548068e-10,
+      "risk_level": "SAFE"
+    },
+    {
+      "sat1_id": "TEST00014",
+      "sat1_name": "GOES-16",
+      "sat2_id": "TEST00020",
+      "sat2_name": "GCOM-W1",
+      "sat1_norad": "41866",
+      "sat2_norad": "38629",
+      "collision_probability": 1.1823687584566756e-09,
+      "risk_level": "SAFE"
+    }
+  ],
+  "summary": {
+    "total_warnings": 76,
+    "high_risk": 40,
+    "medium_risk": 26,
+    "low_risk": 10,
+    "safe_pairs": 134,
+    "max_probability": 0.9195573925971985,
+    "critical_pairs": [
+      {
+        "pair": "ISS (ZARYA) - STARLINK-1130",
+        "probability": 0.8887209892272949
+      },
+      {
+        "pair": "CSS (TIANHE) - MOLNIYA 1",
+        "probability": 0.7545722723007202
+      },
+      {
+        "pair": "SENTINEL-1A - AQUA",
+        "probability": 0.9091753363609314
+      },
+      {
+        "pair": "SENTINEL-1A - TERRA",
+        "probability": 0.7315820455551147
+      },
+      {
+        "pair": "SENTINEL-1A - NOAA-18",
+        "probability": 0.7225872874259949
+      }
+    ]
+  }
+}

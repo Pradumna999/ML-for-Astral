@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "total_satellites": 100,
+    "test_date": "2025-12-04T16:00:00",
+    "test_purpose": "Collision prediction test with mixed safe and collision-risk satellites",
+    "note": "Contains 100 real and synthetic satellite TLE data for testing"
+  },
+  "dataset": [
+    {
+      "satellite_id": "TEST00000",
+      "name": "ISS (ZARYA)",
+      "norad_id": "25544",
+      "tle_line1": "1 25544U 98067A   25333.89904475  .00008908  00000+0  16851-3 0  9990",
+      "tle_line2": "2 25544  51.6312 206.0453 0003727 184.4038 175.6918 15.49196254540863",
+      "epoch": "2025-12-04T21:34:11",
+      "orbital_parameters": {
+        "inclination": 51.6312,
+        "raan": 206.0453,
+        "eccentricity": 0.0003727,
+        "argument_of_perigee": 184.4038,
+        "mean_anomaly": 175.6918,
+        "mean_motion": 15.49196254
+      },
+      "collision_metrics": {
+        "collision_probability": 0.02,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 85.5,
+        "time_to_closest_approach_min": 120.0,
+        "relative_velocity_kms": 7.8
+      }
+    },
+    {
+      "satellite_id": "TEST00001",
+      "name": "CSS (TIANHE)",
+      "norad_id": "48274",
+      "tle_line1": "1 48274U 21035A   25334.02890669  .00015274  00000+0  19848-3 0  9994",
+      "tle_line2": "2 48274  41.4664  93.8273 0010548 296.7177  63.2581 15.58412090262045",
+      "epoch": "2025-12-04T00:41:52",
+      "orbital_parameters": {
+        "inclination": 41.4664,
+        "raan": 93.8273,
+        "eccentricity": 0.0010548,
+        "argument_of_perigee": 296.7177,
+        "mean_anomaly": 63.2581,
+        "mean_motion": 15.5841209
+      },
+      "collision_metrics": {
+        "collision_probability": 0.85,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 2.1,
+        "time_to_closest_approach_min": 15.5,
+        "relative_velocity_kms": 11.2
+      }
+    },
+    {
+      "satellite_id": "TEST00002",
+      "name": "SENTINEL-1A",
+      "norad_id": "39953",
+      "tle_line1": "1 39953U 14016A   25334.54166667  .00000369  00000+0  17625-4 0  9994",
+      "tle_line2": "2 39953  98.1824 187.2047 0001189 103.1461 256.9951 14.58215087655989",
+      "epoch": "2025-12-04T13:00:00",
+      "orbital_parameters": {
+        "inclination": 98.1824,
+        "raan": 187.2047,
+        "eccentricity": 0.0001189,
+        "argument_of_perigee": 103.1461,
+        "mean_anomaly": 256.9951,
+        "mean_motion": 14.58215087
+      },
+      "collision_metrics": {
+        "collision_probability": 0.03,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 72.3,
+        "time_to_closest_approach_min": 95.2,
+        "relative_velocity_kms": 9.1
+      }
+    },
+    {
+      "satellite_id": "TEST00003",
+      "name": "LANDSAT 9",
+      "norad_id": "49260",
+      "tle_line1": "1 49260U 21088A   25333.66438272  .00001456  00000+0  74066-5 0  9996",
+      "tle_line2": "2 49260  98.2085 157.4682 0001168  95.9632 264.1627 14.57460090230868",
+      "epoch": "2025-12-04T15:56:42",
+      "orbital_parameters": {
+        "inclination": 98.2085,
+        "raan": 157.4682,
+        "eccentricity": 0.0001168,
+        "argument_of_perigee": 95.9632,
+        "mean_anomaly": 264.1627,
+        "mean_motion": 14.5746009
+      },
+      "collision_metrics": {
+        "collision_probability": 0.72,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 5.8,
+        "time_to_closest_approach_min": 42.1,
+        "relative_velocity_kms": 13.5
+      }
+    },
+    {
+      "satellite_id": "TEST00004",
+      "name": "GLONASS-M 56",
+      "norad_id": "37348",
+      "tle_line1": "1 37348U 11001A   25333.97616821  .00000051  00000+0  24537-4 0  9991",
+      "tle_line2": "2 37348  64.7978 311.6583 0060949 262.8842  96.9898 14.27538197699405",
+      "epoch": "2025-12-04T23:25:07",
+      "orbital_parameters": {
+        "inclination": 64.7978,
+        "raan": 311.6583,
+        "eccentricity": 0.0060949,
+        "argument_of_perigee": 262.8842,
+        "mean_anomaly": 96.9898,
+        "mean_motion": 14.27538197
+      },
+      "collision_metrics": {
+        "collision_probability": 0.08,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 52.1,
+        "time_to_closest_approach_min": 156.7,
+        "relative_velocity_kms": 3.2
+      }
+    },
+    {
+      "satellite_id": "TEST00005",
+      "name": "STARLINK-1130",
+      "norad_id": "45194",
+      "tle_line1": "1 45194U 20032AL  25334.58451389  .00000835  00000+0  47661-4 0  9996",
+      "tle_line2": "2 45194  53.0545  47.5820 0001249 102.3284 257.8181 15.06386234213784",
+      "epoch": "2025-12-04T14:01:02",
+      "orbital_parameters": {
+        "inclination": 53.0545,
+        "raan": 47.5820,
+        "eccentricity": 0.0001249,
+        "argument_of_perigee": 102.3284,
+        "mean_anomaly": 257.8181,
+        "mean_motion": 15.06386234
+      },
+      "collision_metrics": {
+        "collision_probability": 0.91,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 0.5,
+        "time_to_closest_approach_min": 8.2,
+        "relative_velocity_kms": 2.4
+      }
+    },
+    {
+      "satellite_id": "TEST00006",
+      "name": "GALILEO 1",
+      "norad_id": "30386",
+      "tle_line1": "1 30386U 06047A   25334.56446180  .00000159  00000+0  10050-4 0  9997",
+      "tle_line2": "2 30386  56.8407 151.8524 0001598 141.2842 218.8597 14.27465945887405",
+      "epoch": "2025-12-04T13:32:48",
+      "orbital_parameters": {
+        "inclination": 56.8407,
+        "raan": 151.8524,
+        "eccentricity": 0.0001598,
+        "argument_of_perigee": 141.2842,
+        "mean_anomaly": 218.8597,
+        "mean_motion": 14.27465945
+      },
+      "collision_metrics": {
+        "collision_probability": 0.04,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 91.2,
+        "time_to_closest_approach_min": 201.5,
+        "relative_velocity_kms": 6.7
+      }
+    },
+    {
+      "satellite_id": "TEST00007",
+      "name": "METEOSAT 11",
+      "norad_id": "40732",
+      "tle_line1": "1 40732U 15017A   25333.89375000  .00000156  00000+0  11357-4 0  9999",
+      "tle_line2": "2 40732   0.0265 245.0235 0001298  85.6271  46.5345  1.00271400 32544",
+      "epoch": "2025-12-04T21:27:00",
+      "orbital_parameters": {
+        "inclination": 0.0265,
+        "raan": 245.0235,
+        "eccentricity": 0.0001298,
+        "argument_of_perigee": 85.6271,
+        "mean_anomaly": 46.5345,
+        "mean_motion": 1.00271400
+      },
+      "collision_metrics": {
+        "collision_probability": 0.01,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 120.5,
+        "time_to_closest_approach_min": 300.0,
+        "relative_velocity_kms": 0.1
+      }
+    },
+    {
+      "satellite_id": "TEST00008",
+      "name": "AQUA",
+      "norad_id": "27424",
+      "tle_line1": "1 27424U 02022A   25333.92379630  .00000352  00000+0  28128-4 0  9990",
+      "tle_line2": "2 27424  98.2036  27.1970 0002092 121.3566 238.7936 14.57113833952208",
+      "epoch": "2025-12-04T22:10:27",
+      "orbital_parameters": {
+        "inclination": 98.2036,
+        "raan": 27.1970,
+        "eccentricity": 0.0002092,
+        "argument_of_perigee": 121.3566,
+        "mean_anomaly": 238.7936,
+        "mean_motion": 14.57113833
+      },
+      "collision_metrics": {
+        "collision_probability": 0.68,
+        "risk_category": "MEDIUM_RISK",
+        "minimum_distance_km": 12.3,
+        "time_to_closest_approach_min": 78.5,
+        "relative_velocity_kms": 7.4
+      }
+    },
+    {
+      "satellite_id": "TEST00009",
+      "name": "TERRA",
+      "norad_id": "25994",
+      "tle_line1": "1 25994U 99068A   25333.88635416  .00000264  00000+0  21074-4 0  9999",
+      "tle_line2": "2 25994  98.2078 249.5088 0001241  71.7316 288.4192 14.57111220945282",
+      "epoch": "2025-12-04T21:16:35",
+      "orbital_parameters": {
+        "inclination": 98.2078,
+        "raan": 249.5088,
+        "eccentricity": 0.0001241,
+        "argument_of_perigee": 71.7316,
+        "mean_anomaly": 288.4192,
+        "mean_motion": 14.5711122
+      },
+      "collision_metrics": {
+        "collision_probability": 0.05,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 68.4,
+        "time_to_closest_approach_min": 112.3,
+        "relative_velocity_kms": 5.9
+      }
+    },
+    {
+      "satellite_id": "TEST00010",
+      "name": "ASTRA 1KR",
+      "norad_id": "32387",
+      "tle_line1": "1 32387U 07061A   25333.90208333  .00000081  00000+0  74873-5 0  9993",
+      "tle_line2": "2 32387   0.1025 343.0345 0001452  61.7627  96.7627  1.00273239 40297",
+      "epoch": "2025-12-04T21:38:00",
+      "orbital_parameters": {
+        "inclination": 0.1025,
+        "raan": 343.0345,
+        "eccentricity": 0.0001452,
+        "argument_of_perigee": 61.7627,
+        "mean_anomaly": 96.7627,
+        "mean_motion": 1.00273239
+      },
+      "collision_metrics": {
+        "collision_probability": 0.76,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 3.4,
+        "time_to_closest_approach_min": 22.8,
+        "relative_velocity_kms": 1.8
+      }
+    },
+    {
+      "satellite_id": "TEST00011",
+      "name": "MOLNIYA 1",
+      "norad_id": "35056",
+      "tle_line1": "1 35056U 08072A   25333.93173611  .00000037  00000+0  20254-4 0  9990",
+      "tle_line2": "2 35056  62.1814 259.3046 0722785 280.0635  71.5996  2.00673999152644",
+      "epoch": "2025-12-04T22:22:00",
+      "orbital_parameters": {
+        "inclination": 62.1814,
+        "raan": 259.3046,
+        "eccentricity": 0.0722785,
+        "argument_of_perigee": 280.0635,
+        "mean_anomaly": 71.5996,
+        "mean_motion": 2.00673999
+      },
+      "collision_metrics": {
+        "collision_probability": 0.12,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 45.6,
+        "time_to_closest_approach_min": 234.5,
+        "relative_velocity_kms": 4.3
+      }
+    },
+    {
+      "satellite_id": "TEST00012",
+      "name": "ONEWEB 0001",
+      "norad_id": "44713",
+      "tle_line1": "1 44713U 19071A   25334.53795833  .00000916  00000+0  49772-4 0  9992",
+      "tle_line2": "2 44713  87.9351 159.6447 0001129  52.8436 307.3255 14.39751235206885",
+      "epoch": "2025-12-04T12:54:34",
+      "orbital_parameters": {
+        "inclination": 87.9351,
+        "raan": 159.6447,
+        "eccentricity": 0.0001129,
+        "argument_of_perigee": 52.8436,
+        "mean_anomaly": 307.3255,
+        "mean_motion": 14.39751235
+      },
+      "collision_metrics": {
+        "collision_probability": 0.89,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 1.2,
+        "time_to_closest_approach_min": 5.1,
+        "relative_velocity_kms": 10.8
+      }
+    },
+    {
+      "satellite_id": "TEST00013",
+      "name": "IRIDIUM 2",
+      "norad_id": "24952",
+      "tle_line1": "1 24952U 97020C   25334.57716990  .00000349  00000+0  16793-4 0  9995",
+      "tle_line2": "2 24952  86.3919 137.6699 0002476 237.5611 122.4605 14.34341170986632",
+      "epoch": "2025-12-04T13:51:12",
+      "orbital_parameters": {
+        "inclination": 86.3919,
+        "raan": 137.6699,
+        "eccentricity": 0.0002476,
+        "argument_of_perigee": 237.5611,
+        "mean_anomaly": 122.4605,
+        "mean_motion": 14.3434117
+      },
+      "collision_metrics": {
+        "collision_probability": 0.06,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 58.9,
+        "time_to_closest_approach_min": 89.4,
+        "relative_velocity_kms": 8.3
+      }
+    },
+    {
+      "satellite_id": "TEST00014",
+      "name": "GOES-16",
+      "norad_id": "41866",
+      "tle_line1": "1 41866U 16071A   25333.90972222  .00000229  00000+0  16566-4 0  9997",
+      "tle_line2": "2 41866   0.0269 243.1534 0001262  78.6551  39.5813  1.00270990 27606",
+      "epoch": "2025-12-04T21:49:00",
+      "orbital_parameters": {
+        "inclination": 0.0269,
+        "raan": 243.1534,
+        "eccentricity": 0.0001262,
+        "argument_of_perigee": 78.6551,
+        "mean_anomaly": 39.5813,
+        "mean_motion": 1.0027099
+      },
+      "collision_metrics": {
+        "collision_probability": 0.02,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 115.3,
+        "time_to_closest_approach_min": 280.0,
+        "relative_velocity_kms": 0.2
+      }
+    },
+    {
+      "satellite_id": "TEST00015",
+      "name": "NOAA-18",
+      "norad_id": "28654",
+      "tle_line1": "1 28654U 05018A   25333.92060185  .00000337  00000+0  28089-4 0  9996",
+      "tle_line2": "2 28654  99.0090 247.9155 0014925 125.1878 235.0476 14.12504893878313",
+      "epoch": "2025-12-04T22:05:27",
+      "orbital_parameters": {
+        "inclination": 99.0090,
+        "raan": 247.9155,
+        "eccentricity": 0.0014925,
+        "argument_of_perigee": 125.1878,
+        "mean_anomaly": 235.0476,
+        "mean_motion": 14.12504893
+      },
+      "collision_metrics": {
+        "collision_probability": 0.79,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 4.5,
+        "time_to_closest_approach_min": 35.2,
+        "relative_velocity_kms": 12.1
+      }
+    },
+    {
+      "satellite_id": "TEST00016",
+      "name": "CALIPSO",
+      "norad_id": "29108",
+      "tle_line1": "1 29108U 06023A   25333.88517898  .00000269  00000+0  21558-4 0  9998",
+      "tle_line2": "2 29108  98.1994 250.6948 0001085  88.4537 271.6903 14.57103868923156",
+      "epoch": "2025-12-04T21:15:26",
+      "orbital_parameters": {
+        "inclination": 98.1994,
+        "raan": 250.6948,
+        "eccentricity": 0.0001085,
+        "argument_of_perigee": 88.4537,
+        "mean_anomaly": 271.6903,
+        "mean_motion": 14.57103868
+      },
+      "collision_metrics": {
+        "collision_probability": 0.07,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 75.4,
+        "time_to_closest_approach_min": 140.8,
+        "relative_velocity_kms": 4.6
+      }
+    },
+    {
+      "satellite_id": "TEST00017",
+      "name": "ENVISAT",
+      "norad_id": "27386",
+      "tle_line1": "1 27386U 02031A   25333.92640509  .00000364  00000+0  28986-4 0  9997",
+      "tle_line2": "2 27386  98.2110  77.2519 0001195  62.7838 297.3751 14.57154099950932",
+      "epoch": "2025-12-04T22:12:48",
+      "orbital_parameters": {
+        "inclination": 98.2110,
+        "raan": 77.2519,
+        "eccentricity": 0.0001195,
+        "argument_of_perigee": 62.7838,
+        "mean_anomaly": 297.3751,
+        "mean_motion": 14.57154099
+      },
+      "collision_metrics": {
+        "collision_probability": 0.64,
+        "risk_category": "MEDIUM_RISK",
+        "minimum_distance_km": 15.8,
+        "time_to_closest_approach_min": 98.2,
+        "relative_velocity_kms": 6.2
+      }
+    },
+    {
+      "satellite_id": "TEST00018",
+      "name": "SPOT-7",
+      "norad_id": "40014",
+      "tle_line1": "1 40014U 14019A   25334.52118055  .00000452  00000+0  21658-4 0  9995",
+      "tle_line2": "2 40014  98.2734 100.7833 0001355  84.7241 275.4286 14.57395699644213",
+      "epoch": "2025-12-04T12:30:50",
+      "orbital_parameters": {
+        "inclination": 98.2734,
+        "raan": 100.7833,
+        "eccentricity": 0.0001355,
+        "argument_of_perigee": 84.7241,
+        "mean_anomaly": 275.4286,
+        "mean_motion": 14.57395699
+      },
+      "collision_metrics": {
+        "collision_probability": 0.09,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 41.7,
+        "time_to_closest_approach_min": 67.3,
+        "relative_velocity_kms": 7.1
+      }
+    },
+    {
+      "satellite_id": "TEST00019",
+      "name": "HYPERSPECTRAL",
+      "norad_id": "39084",
+      "tle_line1": "1 39084U 13066A   25333.93055556  .00000302  00000+0  21835-4 0  9994",
+      "tle_line2": "2 39084  98.1296 304.1625 0001487  95.3256 264.8368 14.57247247675652",
+      "epoch": "2025-12-04T22:20:00",
+      "orbital_parameters": {
+        "inclination": 98.1296,
+        "raan": 304.1625,
+        "eccentricity": 0.0001487,
+        "argument_of_perigee": 95.3256,
+        "mean_anomaly": 264.8368,
+        "mean_motion": 14.57247247
+      },
+      "collision_metrics": {
+        "collision_probability": 0.82,
+        "risk_category": "HIGH_RISK",
+        "minimum_distance_km": 6.2,
+        "time_to_closest_approach_min": 44.5,
+        "relative_velocity_kms": 9.7
+      }
+    },
+    {
+      "satellite_id": "TEST00020",
+      "name": "GCOM-W1",
+      "norad_id": "38629",
+      "tle_line1": "1 38629U 12064A   25333.89893518  .00000325  00000+0  23952-4 0  9993",
+      "tle_line2": "2 38629  98.6209 146.5823 0001306 108.9674 251.1893 14.57367978703815",
+      "epoch": "2025-12-04T21:33:41",
+      "orbital_parameters": {
+        "inclination": 98.6209,
+        "raan": 146.5823,
+        "eccentricity": 0.0001306,
+        "argument_of_perigee": 108.9674,
+        "mean_anomaly": 251.1893,
+        "mean_motion": 14.57367978
+      },
+      "collision_metrics": {
+        "collision_probability": 0.04,
+        "risk_category": "LOW_RISK",
+        "minimum_distance_km": 63.5,
+        "time_to_closest_approach_min": 145.7,
+        "relative_velocity_kms": 5.3
+      }
+    }
+  ]
+}

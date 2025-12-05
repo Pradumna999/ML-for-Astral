@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-12-04T15:49:27.015945",
+  "config": {
+    "collision_data_path": "data/raw/collision_data.json",
+    "safe_data_path": "data/raw/safe_data.json",
+    "model_path": "models/saved_models/collision_model.keras",
+    "best_model_path": "models/saved_models/collision_model_best.keras",
+    "scaler_path": "data/scalers/standard_scaler.pkl",
+    "hidden_layers": [
+      64,
+      32,
+      16
+    ],
+    "dropout_rate": 0.2,
+    "learning_rate": 0.001,
+    "epochs": 100,
+    "batch_size": 64,
+    "early_stopping_patience": 10,
+    "test_split": 0.15,
+    "val_split": 0.15,
+    "random_seed": 42,
+    "collision_threshold": 0.1,
+    "target_probability": 0.01
+  },
+  "final_metrics": {
+    "accuracy": 0.9975672364234924,
+    "auc": 0.9992267489433289,
+    "loss": 0.009603196755051613,
+    "pr_auc": 0.9994544386863708,
+    "precision": 0.9975275993347168,
+    "recall": 0.9991427659988403,
+    "val_accuracy": 0.9954604506492615,
+    "val_auc": 0.9974128603935242,
+    "val_loss": 0.02018013782799244,
+    "val_pr_auc": 0.9981110692024231,
+    "val_precision": 0.9946902394294739,
+    "val_recall": 0.9991111159324646,
+    "learning_rate": 0.0001250000059371814
+  },
+  "best_epoch": 66,
+  "total_epochs": 76
+}
